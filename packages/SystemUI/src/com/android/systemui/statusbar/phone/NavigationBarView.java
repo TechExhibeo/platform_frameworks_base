@@ -341,7 +341,7 @@ public class NavigationBarView extends BaseNavigationBar {
         mDeadZone = (DeadZone) mCurrentView.findViewById(R.id.deadzone);
 
         // force the low profile & disabled states into compliance
-        mBarTransitions.init(mVertical);
+        mBarTransitions.init();
         setDisabledFlags(mDisabledFlags, true /* force */);
         setMenuVisibility(mShowMenu, true /* force */);
 
