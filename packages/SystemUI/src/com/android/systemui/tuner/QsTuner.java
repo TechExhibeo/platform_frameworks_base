@@ -200,7 +200,7 @@ public class QsTuner extends Fragment implements Callback {
         else if (spec.equals("location")) return R.string.quick_settings_location_label;
         else if (spec.equals("cast")) return R.string.quick_settings_cast_title;
         else if (spec.equals("hotspot")) return R.string.quick_settings_hotspot_label;
-        else if (spec.equals("navigation_bar")) return R.string.quick_settings_smartbar;
+        else if (spec.equals("navigation_bar")) return R.string.quick_settings_navigation_bar;
         return 0;
     }
 
